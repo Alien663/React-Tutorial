@@ -1,8 +1,10 @@
 # Redux
 
+## Why needs redux?
 
 
 
 
 
-## Homework : Call an API
+## Homework : Call with Redux
+

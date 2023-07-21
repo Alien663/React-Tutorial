@@ -14,6 +14,8 @@ const Main = () => {
       <a className="App-link" href="/timer" rel="noopener noreferrer">Timer</a>
       <a className="App-link" href="/parent" rel="noopener noreferrer">parent</a>
       <a className="App-link" href="/counter" rel="noopener noreferrer">Counter</a>
+      <a className="App-link" href="/counter/hook" rel="noopener noreferrer">Hoook Counter</a>
+      <a className="App-link" href="/counter/class" rel="noopener noreferrer">Class Counter</a>
       <a className="App-link" href="/apisample" rel="noopener noreferrer">Call API</a>
     </header>
   </div>

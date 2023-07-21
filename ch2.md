@@ -83,33 +83,25 @@ State是Component自己定義，Bind到Virtual DOM的變數。
 
 * Counter
 ```javascript
-const Sample =  (props) => {
+const Counter = (props) => {
     const [counter, setCounter] = useState(0)
-    async function clickButton ()  {
-        setCounter(counter + 1)
-    }
-
     return(
         <div>
-            <div>{ counter }</div><br />
-            <button onClick={ () => clickButton() }>click me to call data</button>
-            {
-                data.length > 0 ?
-                <div>{ 
-                    data.map(item => {return(item["TID"])}) 
-                }</div> : <div>no data yet</div>
-            }
+            <div>Click Times : {counter}</div>
+            <div>
+                <button onClick={() => {
+                    setCounter(counter+1)
+                }}>Click Me</button>
+            </div>
         </div>
     )
 }
 ```
 
 
-
-
 ## Homework : Paging Component
 
-請製作一個表格換頁功能的Component，需要包含以下功能
+請製作一個表格換頁功能的Component，不用做出表格，只要有換頁的功能，需要的功能如下:
 
 1. 下一頁
 2. 上一頁

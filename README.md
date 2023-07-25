@@ -11,4 +11,6 @@
 ## [Ch5. Hook](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
 ## [Ch6. Redux](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
 
+所有範例程式碼都有上傳到Github公開分享，如有需求可以參照，根據使用不同架構分別使用不同的Branch存放。
 
+[My React Basic Porject](https://github.com/Alien663/React/tree/main)

@@ -117,3 +117,39 @@ const MyTime = () => {
     <button></button>
 </div>
 ```
+
+## Homework : Auto Loading JsonLD Table
+
+給定一個table轉成的Json資料，自動偵測Column Name，以及自動產生table。
+
+額外需求 : 當Column Name為`@`開頭，則要自動尋找對應的Column變成連結，範例如下
+
+```json
+[
+    {
+        "ID": 1,
+        "Name":"Test1",
+        "Description": "HAHAHAHA",
+        "@Name": "#test1"
+    },
+    {
+        "ID": 2,
+        "Name":"Test2",
+        "Description": "HAHAHAHA",
+        "@Name": "#test2"
+    },
+    {
+        "ID": 3,
+        "Name":"Test3",
+        "Description": "HAHAHAHA",
+        "@Name": "#test3"
+    },
+]
+```
+
+ ID | Name | Description
+ --- | --- | --- 
+1 | [Test1]("#test1") | HAHAHAHA
+2 | [Test2]("#test2") | HAHAHAHA
+3 | [Test3]("#test3") | HAHAHAHA
+

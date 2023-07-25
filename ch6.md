@@ -34,6 +34,13 @@ Redux的概念，就是建立一個名為store的data center，讓你可以把da
 
 此份教學將圍繞Redux-toolkit展開，相較於redux-saga的舊方法，redux-toolkit使用起來簡易非常多，學起來難度降低不少。
 
+關於Redux如何和Component之間的交流，可以看官網的GIF:
+
+![how redux work](https://d33wubrfki0l68.cloudfront.net/01cc198232551a7e180f4e9e327b5ab22d9d14e7/b33f4/assets/images/reduxdataflowdiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif)
+
+如果再加上Call API的行為，其實也沒有很複雜，只是在Store那邊多了一小段
+![Redux Call API Flow](https://redux.js.org/assets/images/ReduxAsyncDataFlowDiagram-d97ff38a0f4da0f327163170ccc13e80.gif)
+
 ### Step 1 : Create Default Settings
 
 首先，在專案中新增Store資料夾，並在裡面新增index.js

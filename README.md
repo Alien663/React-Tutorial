@@ -5,11 +5,11 @@
 我自己編排課程，教材大約如下面章節，除第4章特別困難之外，其他的應該都還好，已經刪掉很多細節的部分。
 
 ## [Ch1. SPA : Render only when changing](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
-## [Ch2. Variable](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
-## [Ch3. Virtual DOM](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
-## [Ch4. Let's make a virtual DOM with basic javascript](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
-## [Ch5. Hook](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
-## [Ch6. Redux](https://github.com/Alien663/React-Tutorial/blob/main/ch1.md)
+## [Ch2. Variable](https://github.com/Alien663/React-Tutorial/blob/main/ch2.md)
+## [Ch3. Virtual DOM](https://github.com/Alien663/React-Tutorial/blob/main/ch3.md)
+## [Ch4. Let's make a virtual DOM with basic javascript](https://github.com/Alien663/React-Tutorial/blob/main/ch4.md)
+## [Ch5. Hook](https://github.com/Alien663/React-Tutorial/blob/main/ch5.md)
+## [Ch6. Redux](https://github.com/Alien663/React-Tutorial/blob/main/ch6.md)
 
 所有範例程式碼都有上傳到Github公開分享，如有需求可以參照，根據使用不同架構分別使用不同的Branch存放。
 
